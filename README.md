@@ -6,4 +6,4 @@
 - **Subject** : 2301170 COMP PROG
 - Chulalongkorn University
 
-> If you find any mistakes, feel free to contact me. [Email](mailto:qq.panmas@gmail.com)
+> If you find any mistakes, feel free create issue.
