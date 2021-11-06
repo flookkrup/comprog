@@ -20,7 +20,7 @@ while True:
         i += 1
 
 
-checkout = {key: value * prices[key] for key, value in shopping_cart.items()}
+checkout = {item: quantity * prices[item] for item, quantity in shopping_cart.items()}
 
 print(f"You have to pay: {sum(checkout.values())}")
 for item, price in checkout.items():
