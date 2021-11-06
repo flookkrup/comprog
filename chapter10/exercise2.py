@@ -2,7 +2,7 @@ data = "./table.csv"
 table = {}
 
 with open(data, "r") as file:
-    next(file) # Skip header
+    table["header"] = file.readline().strip().split(",")
     
     for line in file:
         course, credit, grade = line.strip().split(",")
